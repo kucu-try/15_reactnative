@@ -17,6 +17,10 @@ const StackComponent = ({route,navigation}) => {
                 Stack View 화면
             </Text>
             <Button onPress={page} title="이동"/>
+            <View>
+                <Text>Tap 메뉴 이동</Text>
+                <Button onPress={tapRouter} title="Tap 이동"/>
+            </View>
         </View>
     )
 }

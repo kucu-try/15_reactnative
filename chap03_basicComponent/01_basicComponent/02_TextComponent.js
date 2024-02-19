@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Text,View } from "react-native";
 
 const TextComponent = ({name, styles}) =>{
     //<Text> 컴포넌트는 문자열을 표시하기 위한 컴포넌트이다.

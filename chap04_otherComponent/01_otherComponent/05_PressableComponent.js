@@ -43,6 +43,10 @@ const styles = StyleSheet.create({
         marginVertical:3,
         borderWidth:3
     },
+    imageContainer:{
+        marginHorizontal: 5,
+        padding: 2
+    },
     image:{
         width:100,
         height:100

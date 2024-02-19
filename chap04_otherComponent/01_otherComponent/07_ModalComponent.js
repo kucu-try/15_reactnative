@@ -17,7 +17,8 @@ const ModalComponent=({modalVisible, setModalVisible})=>{
                     <Text style={styles.modalText}>react - naitve 에서 제공되는 다양한 컴포넌트를 활용하여 앱을 개발</Text>
                     <Pressable
                         style={[styles.button, styles.buttonClose]}
-                        onPress={()=>setModalVisible(!modalVisible)}>
+                        onPress={()=>setModalVisible(!modalVisible)}
+                        >
                         <Text style={styles.textStyle}>모달 닫기</Text>
                         </Pressable>
                 </View>

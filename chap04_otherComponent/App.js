@@ -10,7 +10,7 @@ export default function App() {
 
   const [loading, setLoading] = useState(true);
   const [isDark, setIsDark] = useState(true);
-  const [modalVisible, setModelVisible] = useState(false);
+  const [modalVisible, setModalVisible] = useState(false);
 
   if(loading){
     return(
@@ -35,8 +35,8 @@ export default function App() {
       <View style={styles.rootContainer}>
         <FlatListComponent isDark={isDark}/>
       </View>
-      <ModalComponent modalVisible={modalVisible} setModelVisible={setModelVisible}/>
-      <Button title='모달' onPress={()=>setModelVisible(true)}/>
+      <ModalComponent modalVisible={modalVisible} setModalVisible={setModalVisible}/>
+      <Button title='모달' onPress={()=> setModalVisible(true)}/>
     </SafeAreaViewComponent>
   );
 }

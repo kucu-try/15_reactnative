@@ -1,15 +1,16 @@
-import { View, Text } from "react-native"
+import { Text, View } from "react-native"
 
 const ViewComponent = ({ isTrue, styles }) => {
-    if (!isTrue) {
+
+    if(!isTrue) {
         return <View>
-            에러발생
+            에러 발생
         </View>
     }
 
     return (
-        <View>
-            <Text>i'm 썬더 람쥐</Text>
+        <View style={styles}>
+            <Text>Hello</Text>
         </View>
     )
 }
